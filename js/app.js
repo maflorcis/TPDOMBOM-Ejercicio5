@@ -8,10 +8,10 @@ ME BASE EN ESTA WEB: https://aprende-web.net/jspracticas/tiempo/cod_crono.html
 
 */
 
-var centesimas = 0;
-var segundos = 0;
-var minutos = 0;
-var horas = 0;
+let centesimas = 0;
+let segundos = 0;
+let minutos = 0;
+let horas = 0;
 function inicio () {
 	control = setInterval(cronometro,10);
 	document.getElementById("inicio").disabled = true;
